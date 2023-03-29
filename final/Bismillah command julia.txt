@@ -1,0 +1,33 @@
+1.
+-------------------------
+cd("D:/Julia-1.6.3/bin") #Change_directory
+pwd() #Cek_present_working_directory
+; 
+julia -t 4
+-------------------------
+
+3.oprional
+-----------------------------------------
+using Pkg; Pkg.add(["Omniscape", "Rasters", "Plots"]) #Install_library
+
+4.
+____________________________________________
+using Omniscape, Rasters, Plots #Use_library
+cd("D:/Bismillah/final") #change_directory_to_.ini_file
+run_omniscape("Bismillah_SON.ini") #Run_.ini_file
+--------------------------------------------
+
+
+
+
+thread
+
+
+
+
+set JULIA_NUM_THREADS=4
+
+d:
+cd "D:/Julia-1.6.3/bin"
+
+
