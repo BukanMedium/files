@@ -1,0 +1,17 @@
+type
+
+pwd()
+
+cd("D:/Julia-1.6.3/bin")
+
+; 
+
+julia -t 4
+
+using Pkg; Pkg.add("Omniscape")
+
+cd("D:/post final")
+
+run_omniscape("Bismillah_SON22.ini")
+
+
